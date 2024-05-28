@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interest Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <p class="entry_p">
+    <label for="loan_amount">Loan Amount: $</label>
+    <p class="entry_p_input"><input type="number" id="loan_amount" name="loan_amount"></p>
+  </p>
+  <p class="entry_p">
+    <label for="interest_rate">Interest Rate as decimal (.05 for 5%):</label>
+    <p class="entry_p_input"><input type="number" id="interest_rate" name="interest_rate"></p>
+  </p>
+  <p class="entry_p">
+    <label for="last_paid">Days since last payment:</label>
+    <p class="entry_p_input"><input type="number" id="last_paid" name="last_paid"></p>
+  </p>
+  <p class="button_p"><button onclick="calculate()">Submit</button></p>
+</body>
+</html>

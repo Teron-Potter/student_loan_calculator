@@ -1,0 +1,23 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-size: 24px;
+}
+
+p {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.entry_p {
+  margin: 20px 0px;
+  padding: 0px 0px;
+}
+
+.entry_p_input {
+  padding: 0px 0px;
+}
+
+.button_p {
+  padding: 0px 40px;
+}
